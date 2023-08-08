@@ -83,9 +83,7 @@ app.get("/blog", (req, res) => {
 });
 
 mongoose
-  .connect(
-    "mongodb+srv://tomisaputra:Tommyajah-2001@tomisapi.iqgpimq.mongodb.net/Node-API?retryWrites=true&w=majority"
-  )
+  .connect(uri
   .then(() => {
     console.log("connected to mongo db");
     app.listen(3000, () => {
