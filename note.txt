@@ -1,0 +1,8 @@
+- install mongoose, express dan tool lainnya
+- lalu daftar di mongo db website
+- connect kan aplikasi kita ke mongodb
+- buat kan model dan modelschema
+- lalu coba menggunakan post method untuk post data ke db
+- lalu coba get data dari database
+- lalu coba get data by id
+- fungsi update data
